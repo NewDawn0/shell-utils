@@ -1,0 +1,105 @@
+{
+  "nodes": {
+    "ansi": {
+      "inputs": {
+        "nix-systems": [
+          "nix-systems"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-BxaQlhoa9nB057P8XTSwKgrbQpjCMEeTSMAhGhxKWtM=",
+        "path": "./ansi",
+        "type": "path"
+      },
+      "original": {
+        "path": "./ansi",
+        "type": "path"
+      }
+    },
+    "ex": {
+      "inputs": {
+        "nix-systems": [
+          "nix-systems"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-jmyOwZQK5AxogS+wpbHwlWgz4PcWjuklKBBD9BOK9AY=",
+        "path": "./ex",
+        "type": "path"
+      },
+      "original": {
+        "path": "./ex",
+        "type": "path"
+      }
+    },
+    "nix-systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1713489661,
+        "narHash": "sha256-tmM0ye1L3lOZiwdZgndlHE8UE9F4E8RhNnT8DZa0P2w=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "3d06f73179401bcce967c5a5b54cc7005cb26348",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "ansi": "ansi",
+        "ex": "ex",
+        "nix-systems": "nix-systems",
+        "nixpkgs": "nixpkgs",
+        "up": "up"
+      }
+    },
+    "up": {
+      "inputs": {
+        "nix-systems": [
+          "nix-systems"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-mb2aN99NtKfjs4YpjMJS/TtxCorfjGeS0dRcPqwCLyY=",
+        "path": "./up",
+        "type": "path"
+      },
+      "original": {
+        "path": "./up",
+        "type": "path"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
