@@ -14,6 +14,7 @@
         in {
           default = pkgs.buildGoModule {
             name = "ansi";
+            pname = "ansi";
             version = "0.1.0";
             src = ./.;
             vendorHash = null;
