@@ -25,15 +25,9 @@
     let eachSystem = nixpkgs.lib.genAttrs (import inputs.nix-systems);
     in {
       packages = eachSystem (system: {
-        ansi = inputs.shell-utils.packages.${system}.ansi;
-        dirStack = inputs.dirStack.packages.${system}.default;
-        ex = inputs.shell-utils.packages.${system}.ex;
-        gen = inputs.gen.packages.${system}.default;
-        nixie-clock = inputs.nixie-clock.packages.${system}.default;
-        note = inputs.note.packages.${system}.default;
-        rgpt = inputs.rgpt.packages.${system}.default;
-        translate = inputs.translate.packages.${system}.default;
-        up = inputs.shell-utils.packages.${system}.up;
+        ansi = inputs.ansi.packages.${system}.default;
+        ex = inputs.ex.packages.${system}.default;
+        up = inputs.up.packages.${system}.default;
       });
     };
 }
