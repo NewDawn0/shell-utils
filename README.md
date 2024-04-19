@@ -19,7 +19,6 @@ nix profile install .
           inputs.nixpkgs.follows = "nixpkgs";
           # Optional: If you use nix-systems or rust-overlay
           inputs.nix-systems.follows = "nix-systems";
-          inputs.rust-overlay.follows = "rust-overlay";
         };
       };
     }
