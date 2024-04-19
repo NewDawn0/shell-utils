@@ -11,7 +11,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-BxaQlhoa9nB057P8XTSwKgrbQpjCMEeTSMAhGhxKWtM=",
+        "narHash": "sha256-tM0b8Ctc1oC8bPYFKGJF/4KKoFFKVgROgDFQy3j5K1s=",
         "path": "./ansi",
         "type": "path"
       },
@@ -31,7 +31,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-jmyOwZQK5AxogS+wpbHwlWgz4PcWjuklKBBD9BOK9AY=",
+        "narHash": "sha256-XIxloiLt7BFsERL1fivh+DeMigywWJVmxsJGzRYtUhc=",
         "path": "./ex",
         "type": "path"
       },
@@ -90,7 +90,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-mb2aN99NtKfjs4YpjMJS/TtxCorfjGeS0dRcPqwCLyY=",
+        "narHash": "sha256-Tvf/8LN2Gu/YXwDNHn3SaSu40A3ChqJiQwf3PfvYlr4=",
         "path": "./up",
         "type": "path"
       },
