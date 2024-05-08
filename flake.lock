@@ -1,45 +1,5 @@
 {
   "nodes": {
-    "ansi": {
-      "inputs": {
-        "nix-systems": [
-          "nix-systems"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-CrG995THCtPIhx/KjwyYIt508ylT7XpYPdncH6EsMAM=",
-        "path": "./ansi",
-        "type": "path"
-      },
-      "original": {
-        "path": "./ansi",
-        "type": "path"
-      }
-    },
-    "ex": {
-      "inputs": {
-        "nix-systems": [
-          "nix-systems"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-BkOYq0T/mk0O5NQgGgRcXIVQSiWhyZkOmF5m2TbU44k=",
-        "path": "./ex",
-        "type": "path"
-      },
-      "original": {
-        "path": "./ex",
-        "type": "path"
-      }
-    },
     "nix-systems": {
       "locked": {
         "lastModified": 1681028828,
@@ -72,31 +32,8 @@
     },
     "root": {
       "inputs": {
-        "ansi": "ansi",
-        "ex": "ex",
         "nix-systems": "nix-systems",
-        "nixpkgs": "nixpkgs",
-        "up": "up"
-      }
-    },
-    "up": {
-      "inputs": {
-        "nix-systems": [
-          "nix-systems"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-trFUJwDXhxB0DrE5coSbQl8bTSS4maojNWMyEUm8Nr0=",
-        "path": "./up",
-        "type": "path"
-      },
-      "original": {
-        "path": "./up",
-        "type": "path"
+        "nixpkgs": "nixpkgs"
       }
     }
   },
