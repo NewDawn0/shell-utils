@@ -39,5 +39,5 @@ nix profile install .
     ```nix
     home.packages = with pkgs; [ ansi ex up ];
     ```
-
+**Note**: You are able to install the packages individually aswell using either its `default.nix` or `flake.nix`
 **Note**: If you use up don't forget to initalize it using the install instructions in `./up/README.md`
