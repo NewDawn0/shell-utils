@@ -14,6 +14,15 @@
           config.allowUnfree = true;
         };
     in {
+      overlays.default = (final: prev:
+        with builtins;
+        with prev.lib.attrsets;
+        listToAttrs (map (u: {
+          name = u;
+          value = self.packages.${prev.system}.${u};
+        }) (filter (f: f != "tmp")
+          (attrNames (filterAttrs (_: v: v == "directory") (readDir ./.))))));
+
       packages = eachSystem (system:
         let pkgs = mkPkgs system;
         in with builtins;
